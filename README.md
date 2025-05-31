@@ -64,16 +64,16 @@ Key dependencies:
 ```
 equitable-ai-latin-america/
 ├── data/
-│   ├── questions_latin_america.csv        # Curated questions dataset
+│   ├── questions_latin_america.csv       # Curated questions dataset
 │   ├── responses_<model>.csv             # LLM responses (e.g., responses_grok.csv)
 ├── scripts/
 │   ├── finetune_mistral.py               # Fine-tuning script for Mistral-7B
 │   ├── evaluate_ce.py                    # Script to compute CE scores
 │   ├── plot_results.py                   # Script for generating visualizations
-├── figures/
-│   ├── framework_cultural_context.png     # Framework figure
+├── images/
+│   ├── framework.png                     # Framework figure
 │   ├── keyword_frequency.png             # Figure 2
-│   ├── sentiment_distribution.png         # Figure 3
+│   ├── sentiment_distribution.png        # Figure 3
 ├── results/
 │   ├── ce_scores.csv                     # Cultural Expressiveness scores
 │   ├── sentiment_analysis.csv            # Sentiment differences

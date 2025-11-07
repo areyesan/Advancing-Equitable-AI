@@ -1,7 +1,10 @@
 # Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts
+Check out [https://arxiv.org/abs/2511.04090][website] for our preprint paper.
+
+[website]: https://arxiv.org/abs/2511.04090
 
 ## Overview
-This repository contains the code, dataset, and resources for the paper *"Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts"* by Brigitte A. Mora-Reyes and Jennifer A. Drewyor, presented at the Latinx in AI Workshop at ICML 2025. The project evaluates the cultural expressiveness of large language models (LLMs) in representing Latin American contexts, addressing biases from economically advanced regions that marginalize diverse perspectives. We introduce a culturally aware dataset and a framework to enhance LLMs' cultural context awareness, achieving a 42.9% improvement in cultural expressiveness for the fine-tuned Mistral-7B model.
+This repository contains the code, dataset, and resources for the paper *"Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts"* by Brigitte A. Mora-Reyes, Jennifer A. Drewyor, and Abel A. Reyes-Angulo, presented at the Latinx in AI Workshop at ICML 2025. The project evaluates the cultural expressiveness of large language models (LLMs) in representing Latin American contexts, addressing biases from economically advanced regions that marginalize diverse perspectives. We introduce a culturally aware dataset and a framework to enhance LLMs' cultural context awareness, achieving a 42.9% improvement in cultural expressiveness for the fine-tuned Mistral-7B model.
 
 ## Dataset
 The dataset consists of 535 unique questions sourced from 13 Latin American-focused subreddits (e.g., r/AskLatinAmerica, r/Mexico, r/Brazil) via web scraping. A curated subset of 54 questions was used to evaluate six LLMs (Mistral-7B, Zephyr-7B, BLOOM-7B, Llama-2-7B, Grok, and ChatGPT) for cultural context awareness. Ground-truth responses were provided by 12 Latin American users, aggregated into two sets (Resp V1 and Resp V2) using Sentence-BERT embeddings and sentiment analysis.
@@ -96,12 +99,14 @@ equitable-ai-latin-america/
 If you use this code or dataset, please cite our paper:
 
 ```bibtex
-@inproceedings{mora2025advancing,
-  title={Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts},
-  author={Mora-Reyes, Brigitte A. and Drewyor, Jennifer A.},
-  booktitle={Proceedings of the Latinx in AI Workshop at ICML},
-  year={2025},
-  address={Vancouver, Canada}
+@misc{morareyes2025advancingequitableaievaluating,
+      title={Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts}, 
+      author={Brigitte A. Mora-Reyes and Jennifer A. Drewyor and Abel A. Reyes-Angulo},
+      year={2025},
+      eprint={2511.04090},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI},
+      url={https://arxiv.org/abs/2511.04090}, 
 }
 ```
 

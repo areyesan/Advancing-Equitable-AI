@@ -116,7 +116,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 For questions, contact:
 - Brigitte A. Mora-Reyes: [brigitte.morar@ug.edu.ec](mailto:brigitte.morar@ug.edu.ec)
-- Jennifer A. Drewyor: [jadrewyor@mtu.edu](mailto:jadrewyor@mtu.edu)
+- Jennifer A. Drewyor: [jadrewyo@mtu.edu](mailto:jadrewyo@mtu.edu)
 
 ## Acknowledgements
 We thank the Latin American communities on Reddit for their contributions to the dataset and the Latinx in AI Workshop for providing a platform to share this work.
